@@ -133,10 +133,7 @@ bash Copycurl -X POST /api/properties -d '{"title": "Cozy Apartment", "descripti
 Book a Property:
 bash Copycurl -X POST /api/bookings -d '{"property_id": 1, "check_in_date": "2025-11-01", "check_out_date": "2025-11-05", "number_of_guests": 2, "payment_method": "credit_card"}'
 
-
-
 Contributing
-
 Fork the repository.
 Create a new branch: git checkout -b feature-branch.
 Make your changes and commit them: git commit -m 'Add new feature'.
